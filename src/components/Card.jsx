@@ -1,17 +1,21 @@
 import { useState } from "react";
 
-export function Card() {
+export function Card({front, back}) {
     const [checkCard, setCheckCard] = useState(false);
 
-    function handleClick() {
+    const handleClick = () => {
         setCheckCard(!checkCard);
     }
 
     let className = `card ${checkCard ? 'card-check' : ''}`;
     
     return(
-        <div className={className} onClick={handleClick}>
-            Карточка 1
+        <div 
+        className={className} 
+        onClick={handleClick} 
+        data-back={back}
+        >
+            {front}
             </div>
     );
 }

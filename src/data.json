@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "front": "apple",
+        "back": "яблоко"
+    },
+    {
+        "id": 2,
+        "front": "red",
+        "back": "красный"
+    },
+    {
+        "id": 3,
+        "front": "cat",
+        "back": "кошка"
+    },
+    {
+        "id": 4,
+        "front": "orange",
+        "back": "апельсин"
+    },
+    {
+        "id": 5,
+        "front": "dog",
+        "back": "собака"
+    },
+    {
+        "id": 6,
+        "front": "black",
+        "back": "черный"
+    },
+    {
+        "id": 7,
+        "front": "yellow",
+        "back": "желтый"
+    },
+    {
+        "id": 8,
+        "front": "cow",
+        "back": "корова"
+    },
+    {
+        "id": 9,
+        "front": "purple",
+        "back": "фиолетовый"
+    },
+    {
+        "id": 10,
+        "front": "banana",
+        "back": "банан"
+    }
+]
