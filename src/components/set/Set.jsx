@@ -1,7 +1,9 @@
+import './Set.css';
+
 import { useState } from "react";
-import { Card } from "./Card";
+import { Card } from "../card/Card";
 export function Set() {
-    const cards = require('../data'); //данные с data.json
+    const cards = require('../../data'); //данные с data.json
     const [step, setStep] =useState(0);
 
     const HandleNext = () => {
@@ -29,18 +31,18 @@ export function Set() {
             back = { cards[step].back }
             />
             <div className="control-panel">
-                <button
-                disabled = { step == 0 ? true : false}
+                <button className='btn-control'
+                disabled = { step === 0 ? true : false}
                 onClick = {handlePrev}> 
-                    &lt; 
+                    <b>&lt;</b>
                     </button>
                     <p>
                         {step + 1} / {cards.length}
                     </p>
-                <button 
-                disabled = { step == cards.length - 1 ? true : false}
+                <button className='btn-control'
+                disabled = { step === cards.length - 1 ? true : false}
                 onClick={HandleNext}> 
-                    &gt; 
+                    <b>&gt;</b>
                     </button>
             </div>
         </div>
