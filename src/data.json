@@ -2,51 +2,97 @@
     {
         "id": 1,
         "front": "apple",
-        "back": "яблоко"
+        "back": "яблоко",
+        "setName":"English"
     },
     {
         "id": 2,
         "front": "red",
-        "back": "красный"
+        "back": "красный",
+        "setName":"English"
     },
     {
         "id": 3,
         "front": "cat",
-        "back": "кошка"
+        "back": "кошка",
+        "setName":"English"
     },
     {
         "id": 4,
         "front": "orange",
-        "back": "апельсин"
+        "back": "апельсин",
+        "setName":"English"
     },
     {
         "id": 5,
         "front": "dog",
-        "back": "собака"
+        "back": "собака",
+        "setName":"English"
     },
     {
         "id": 6,
         "front": "black",
-        "back": "черный"
+        "back": "черный",
+        "setName":"English"
     },
     {
         "id": 7,
         "front": "yellow",
-        "back": "желтый"
+        "back": "желтый",
+        "setName":"English"
     },
     {
         "id": 8,
         "front": "cow",
-        "back": "корова"
+        "back": "корова",
+        "setName":"English"
     },
     {
         "id": 9,
         "front": "purple",
-        "back": "фиолетовый"
+        "back": "фиолетовый",
+        "setName":"English"
     },
     {
         "id": 10,
         "front": "banana",
-        "back": "банан"
+        "back": "банан",
+        "setName":"English"
+    },
+    {
+        "id": 11,
+        "front": "p",
+        "back": "абзац",
+        "setName":"tags"
+    },
+    {
+        "id": 12,
+        "front": "a",
+        "back": "ссылка",
+        "setName":"tags"
+    },
+    {
+        "id": 13,
+        "front": "img",
+        "back": "картинки",
+        "setName":"tags"
+    },
+    {
+        "id": 14,
+        "front": "border",
+        "back": "контур",
+        "setName":"css"
+    },
+    {
+        "id": 15,
+        "front": "radius",
+        "back": "радиус",
+        "setName":"css"
+    },
+    {
+        "id": 16,
+        "front": "color",
+        "back": "цвет",
+        "setName":"css"
     }
 ]
