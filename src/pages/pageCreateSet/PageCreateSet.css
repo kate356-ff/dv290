@@ -1,0 +1,17 @@
+.link {
+    text-decoration: none;
+    color: darkblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.3s all;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.link--active {
+    color: darkred;
+    font-weight: bold;
+}

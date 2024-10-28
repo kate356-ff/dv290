@@ -1,9 +1,15 @@
 import './Set.css';
-
 import { useState } from "react";
 import { Card } from "../card/Card";
+import { useLocation } from 'react-router-dom';
+
 export function Set() {
-    const cards = require('../../data'); //данные с data.json
+    const location = useLocation();
+    const {set} = location.state;
+
+    const cards = require('../../data').filter((item)=>{
+        return item.setName === set
+    }); 
     const [step, setStep] =useState(0);
 
     const HandleNext = () => {

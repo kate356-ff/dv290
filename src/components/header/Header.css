@@ -2,5 +2,20 @@
     background-color: darkblue;
     color: white;
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-nav .link {
+    color: white;
+  }
+
+  .main-nav .link:hover {
+    color: rgb(219, 179, 179);
+  }
+  .main-nav {
+    display: flex;
+    list-style: none;
   }
